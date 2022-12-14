@@ -57,20 +57,34 @@ p{
     word-spacing: 10px;
 }
 .menu{
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background-color: rgb(32, 179, 236);
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
 }
 .links{
-    float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    color: rgb(2, 11, 85);
+display: inline;
+padding-left: 33px;
+padding-right: 25px;
+font-family: 'Oswald', cursive;
+font-size: 30px;
+font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+}
+.links :hover{
+    font-size: 35px;
+    text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+    font-size: 20px;
+}
+.contact_1 h3{
+    display: inline;
 }
